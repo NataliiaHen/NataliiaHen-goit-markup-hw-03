@@ -1,0 +1,10 @@
+:root {
+--main-text: #757575;
+--blue-text: #2196F3;
+--white-text: #FFFFFF;
+--black-text: #212121;
+--grey-text-op60: rgba(255, 255, 255, 0.6);
+--background-dark-grey: #2F303A;
+--background-light-grey: #F5F4FA;  
+--background-blue: #2196F3;  
+}

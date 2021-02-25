@@ -1,0 +1,133 @@
+/* Мейн
+       */
+       /* герой */
+       .hero .container{
+            padding-top: 200px;
+            padding-bottom: 200px;
+            text-align: center;
+      }     
+    .hero{
+          background-color: var(--background-dark-grey);
+    }
+    .hero-title{
+    margin-bottom: 30px;
+    
+          color: var(--white-text);  
+          font-weight: 900;
+          font-size: 44px;
+          line-height: 1.4;
+          text-align: center;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+    
+    }
+    .hero-link{
+    display: inline-block;
+    padding: 10px 32px;
+    
+    color: var(--white-text);
+    background-color: var(--background-blue);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    }
+    
+    /* Переваги */
+    .benefit .container{
+          
+          padding-top: 94px;
+          padding-bottom: 94px;
+    }
+    .benefit-list{
+          display: flex;
+          /* padding-left: 0; */
+    }
+    .benefit-item{
+          flex-basis: calc((100%-90px) / 4);
+          
+    }
+    .benefit-subtitle{
+          margin-bottom: 10;
+    
+    color: var(--black-text);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+    .benefit-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    }
+    .benefit-list .benefit-item + .benefit-item {
+          margin-right: 30px;
+    }
+    
+    /* Ворклист */
+    .works .container{
+          padding-bottom: 94px;
+    }
+    .doing-list .doing-item + .doing-item{
+          margin-left: 30px;
+    }
+    .doing-list{
+    display: flex;
+    }
+    
+    .doing{
+    margin-bottom: 50px;
+    
+    color: var(--black-text);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+    
+    /* команда */
+    .comand-section .container{
+          padding-top: 94px;
+          padding-bottom: 94px;
+    }
+    .comand-list{
+          display: flex;
+    }
+    .comand-list .comand-item +.comand-item{
+          margin-left: 30px;
+    }
+    .comand{
+    margin-bottom: 50px;
+    
+          color: var(--black-text);
+          font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+    .comand-member{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+    color: var(--black-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+    .comand-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+    
